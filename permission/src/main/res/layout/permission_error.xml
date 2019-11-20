@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/permission_style_02"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- 警告图片 -->
+    <ImageView
+        android:id="@+id/mPermissionIcon"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_perssion_error_64"
+        android:layout_width="45dp"
+        android:layout_height="45dp"/>
+
+    <!-- 分割符 -->
+    <ImageView
+        android:background="@color/dialogError"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <!-- 提示按钮 -->
+    <TextView
+        android:textColor="@color/dialogTextColor"
+        android:id="@+id/mPermissionRemark"
+        android:lineHeight="20dp"
+        android:paddingTop="10dp"
+        android:text="\u3000\u3000为保证App的正常运行，需要部分权限，我们承诺不会保存获取用户的私有信息。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 权限列表标题 -->
+    <TextView
+        android:textColor="@color/dialogTextColor"
+        android:paddingTop="10dp"
+        android:text="需要开启的权限："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 拒绝的权限列表 -->
+    <TextView
+        android:textColor="@color/dialogTextColor"
+        android:id="@+id/mPermissionList"
+        android:paddingTop="10dp"
+        android:lineHeight="20dp"
+        android:paddingLeft="30dp"
+        android:text="读取读取或写入登记check-in数据库属性表的权限。\n获取模拟定位信息,一般用于帮助开发者调试应用。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- 去开启权限 -->
+    <Button
+        android:id="@+id/mPermissionOpen"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/dialogWhite"
+        android:background="@drawable/permission_btn_style_01"
+        android:text="去开启"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <!-- 取消授权 -->
+    <TextView
+        android:id="@+id/mPermissionDenied"
+        android:paddingTop="10dp"
+        android:lineHeight="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="放弃"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

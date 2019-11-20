@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dialogError" type="color">#d81e06</item>
+    <item name="dialogWhite" type="color">#ffffff</item>
+    <item name="dialogBackground" type="color">#FFFFFF</item>
+    <item name="dialogTextColor" type="color">#141414</item>
+</resources>
