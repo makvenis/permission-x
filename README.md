@@ -1,9 +1,5 @@
 # permission-x
-Android权限封装
-
-
-Android引导页
-GuideViewPageLayout view = (GuideViewPageLayout) findViewById(R.id.mGuidePage);
+        GuideViewPageLayout view = (GuideViewPageLayout) findViewById(R.id.mGuidePage);
         List<View> views=new ArrayList<>();
 
         ImageView i1 = new ImageView(this);
