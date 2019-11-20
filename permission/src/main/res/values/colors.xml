@@ -4,4 +4,5 @@
     <item name="dialogWhite" type="color">#ffffff</item>
     <item name="dialogBackground" type="color">#FFFFFF</item>
     <item name="dialogTextColor" type="color">#141414</item>
+    <item name="indicator" type="color">#2c6fcd</item>
 </resources>

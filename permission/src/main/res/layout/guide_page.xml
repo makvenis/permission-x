@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mGuideViewPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:textColor="@color/dialogWhite"
+        android:visibility="invisible"
+        android:textSize="16sp"
+        android:background="@drawable/permission_btn_style_02"
+        android:id="@+id/mGuideStartOpen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:text="开启之旅"
+        android:layout_width="110dp"
+        android:layout_height="45dp"/>
+
+    <guide.GuideLinerLayout
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        app:indicatorNumber="4"
+        app:defaultSelectView="0"
+        app:indicatorWidth="35"
+        app:indicatorHeight="35"
+        app:indicatorMargin="25"
+        android:id="@+id/mGuideIndicator"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

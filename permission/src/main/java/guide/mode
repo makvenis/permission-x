@@ -1,16 +1,6 @@
 package com.sirius.permission;
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
-import java.util.List;
-
+...
 import guide.GuideViewPageLayout;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,6 +41,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"开启之旅",Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }
